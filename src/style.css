@@ -94,3 +94,19 @@ h1.sLinks{
 .fa-twitter {
     color: #1da1f2;
 }
+
+
+/* About Page CSS */
+.about-img-dwayne {
+    width: 18%; 
+}
+
+.top-container {
+    
+}
+
+.name-in-top-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
