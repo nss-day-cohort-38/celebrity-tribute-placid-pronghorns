@@ -11,43 +11,64 @@
 /* NAVBAR */
 header {
     background-image: linear-gradient(to right,white , #334E58 );
-    display: flex;
 }
 nav {
     display: flex;
     width: 100%;
-    
+    flex-direction: row;
+}
+h1.title {
+    font-size: 75px;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 1px 1px #334E58;
+ 
 }
 img.logo {
     width: 10%;
     height: auto;
     margin: 1%;
 }
-
-body{
-    /* display: flex; */
-    background-image: url("/src/img/mountains.jpeg");
-    
-}
-.pageName {
-    display: flex;
-    align-items: flex-end;
-}
-
 .navbar {
     display: flex;
     list-style-type: none;
-    margin: 10%;
+    align-self: flex-end;
     justify-content: flex-start;
+    margin-left: 10%;
     
 }
-
-.navbar li{
-    margin: 30%;
+.navbar li {
+    margin: 10%;
+    align-self: flex-end;
+    border: solid 1px white;
+    padding: 5%;
+    border-radius: 10%;
+    color: midnightblue;
 }
+.navbar li:hover {
+    border:solid 1px midnightblue;
+    background-color: #334E58;
+    color: white;
+    padding: 5.5%;
+    transition: 1s;
+}
+body{
+    background-image: url("/src/img/mountains.jpeg");
+    background-attachment: fixed;
+    
+}
+/* ABOUT BODY */
 
-
-
+div.headShot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img.hShotOne {
+    width: 30%;
+    margin:5%;
+    border-radius: 5%;
+}
 
 
 
