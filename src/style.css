@@ -23,6 +23,9 @@ h1.title {
     color: rgb(255,255,244);
     text-shadow: 1px 1px #334E58;
     font-style: italic;
+    margin-top: 1.5%;
+    letter-spacing: 10px;
+    font-family: 'Fredoka One', cursive;
  
 }
 img.logo {
@@ -223,7 +226,41 @@ footer {
     background-image: linear-gradient(to right,white , #334E58 );
     align-items:center;
     flex-direction: column;
+    border: 1px dotted green;
 
+}
+div.mailList {
+    border:none;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    background-color: midnightblue;
+    padding: 1.5%;
+    box-shadow: 1px 3px grey;
+    /* border-radius: 5%; */
+}
+div.mailTitle {
+    margin:2% 2% 1% 2%;
+    color: rgb(255,255,244);
+}
+button.Email-btn {
+    padding: 1.5%;
+    margin: 2%;
+    border-radius: 5%;
+    transition: ease .3s;
+}
+button.Email-btn:hover {
+    margin:4%;
+    color:white;
+    background-color: midnightblue;
+    border:2px lightblue solid;
+    transition: ease .3s;
+
+}
+input.eEntry {
+    height: 50%;
+    align-self: center;
+    width: 30%;
 }
 .fooBar {
     margin: 1.5%;
@@ -238,6 +275,7 @@ footer {
 }
 h1.sLinks{
     margin-top: 2.5%;
+    color: rgb(255,255,244);
 }
 .fab:hover {
     opacity: 0.5;
