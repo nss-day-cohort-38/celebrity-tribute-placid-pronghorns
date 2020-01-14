@@ -4,38 +4,44 @@
     font-family: 'Alata', sans-serif;
     /* color: white; */
 }
+
 /* NAVBAR */
 header {
     background-image: linear-gradient(to right,white , #334E58 );
 }
+
 nav {
     display: flex;
     width: 100%;
     flex-direction: row;
 }
+
 h1.title {
     font-size: 75px;
     margin-left: 10%;
     color: rgb(255,255,244);
     text-shadow: 1px 1px #334E58;
     font-style: italic;
-    margin-top: 1.5%;
+    margin-top: 4%;
     letter-spacing: 10px;
     font-family: 'Fredoka One', cursive;
 }
+
 img.logo {
     width: 10%;
     /* height: auto; */
     max-height: 150px;
     margin: 1%;
 }
+
 .navbar {
     display: flex;
     list-style-type: none;
     align-self: flex-end;
     justify-content: flex-start;
-    margin-left: 10%;
+    margin-left: 20%;
 }
+
 .navbar li {
     margin: 10%;
     align-self: flex-end;
@@ -43,14 +49,21 @@ img.logo {
     padding: 5%;
     border-radius: 10%;
     color: midnightblue;
+    transition: 1s;
 }
+
 .navbar li:hover {
-    border:solid 1px midnightblue;
+    border:solid 1px lightblue;
     background-color: #334E58;
     color: white;
     padding: 5.5%;
     transition: 1s;
 }
+
+a {
+    color: white;
+}
+
 body{
     background-image: url("/src/img/mountains.jpeg");
     background-attachment: fixed;
@@ -62,24 +75,47 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER  */
 footer {
     display: flex;
     background-image: linear-gradient(to right,white , #334E58 );
     align-items:center;
     flex-direction: column;
+    /* border: 1px dotted green; */
 
+}
+div.mailList {
+    border:none;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    background-color: midnightblue;
+    padding: 1.5%;
+    box-shadow: 1px 3px grey;
+    /* border-radius: 5%; */
+}
+div.mailTitle {
+    margin:2% 2% 1% 2%;
+    color: rgb(255,255,244);
+}
+button.Email-btn {
+    padding: 1.5%;
+    margin: 2%;
+    border-radius: 5%;
+    transition: ease .3s;
+}
+button.Email-btn:hover {
+    margin:4%;
+    color:white;
+    background-color: midnightblue;
+    border:2px lightblue solid;
+    transition: ease .3s;
+
+}
+input.eEntry {
+    height: 50%;
+    align-self: center;
+    width: 30%;
 }
 .fooBar {
     margin: 1.5%;
@@ -94,6 +130,10 @@ footer {
 }
 h1.sLinks{
     margin-top: 2.5%;
+    color: rgb(255,255,244);
+}
+div.fooBar a {
+     margin: 2%;
 }
 .fab:hover {
     opacity: 0.5;
@@ -116,7 +156,6 @@ h1.sLinks{
 /* About Page CSS */
 .about-img-dwayne {
     width: 75%; 
-    /* height: 20%; */
     margin: 5% 0 0 0;
     border-radius: 5%;
 }
@@ -156,7 +195,6 @@ figure {
     justify-content: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    
 }
 
 .spouse-container {
@@ -201,6 +239,7 @@ figure {
     color: white;
     background: rgba(143, 143, 143, 0.5);
     transition: ease 0.3s;
+    border-radius: 2%;
 }
 
 .panel1:hover {
@@ -208,8 +247,6 @@ figure {
     transition: ease 0.3s;
     background: rgba(143, 143, 143, 5);
 }
-
-
 
 .small-img {
     width: 70%;
