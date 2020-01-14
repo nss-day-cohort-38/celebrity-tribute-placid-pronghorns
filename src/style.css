@@ -1,16 +1,6 @@
-/* 415D43   A8B7AB  334E58  rgba(211, 84, 0, 0.5) */
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Alata', sans-serif;
-    /* color: white; */
-}
-
 /* NAVBAR */
 header {
-    /* background-image: linear-gradient(to right,white , #334E58 ); */
-background-color: #334E58;
+    background: #334E58;
 }
 
 nav {
@@ -61,20 +51,6 @@ img.logo {
     color: white;
     padding: 5.5%;
     transition: 1s;
-}
-
-a {
-    color: white;
-}
-
-body{
-    background-image: url("/src/img/mountains.jpeg");
-    background-attachment: fixed;
-}
-
-.pageName {
-    display: flex;
-    align-items: flex-end;
 }
 
 /* Career Page */
@@ -163,7 +139,7 @@ h1.acting-career {
     display: flex;
     height: 300px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .acting-article {
@@ -209,6 +185,8 @@ h1.awardsContainer {
 }
 
 /* table */
+
+
 th {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -244,76 +222,46 @@ tr > td {
 /* FOOTER  */
 footer {
     display: flex;
-    background-image: linear-gradient(to right,white , #334E58 );
-    align-items:center;
+    background-image: linear-gradient(to right, white, #334E58);
+    align-items: center;
     flex-direction: column;
-    /* border: 1px dotted green; */
 
 }
-div.mailList {
-    border:none;
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    background-color: midnightblue;
-    padding: 1.5%;
-    box-shadow: 1px 3px grey;
-    /* border-radius: 5%; */
-}
-div.mailTitle {
-    margin:2% 2% 1% 2%;
-    color: rgb(255,255,244);
-}
-button.Email-btn {
-    padding: 1.5%;
-    margin: 2%;
-    border-radius: 5%;
-    transition: ease .3s;
-}
-button.Email-btn:hover {
-    margin:4%;
-    color:white;
-    background-color: midnightblue;
-    border:2px lightblue solid;
-    transition: ease .3s;
 
-}
-input.eEntry {
-    height: 50%;
-    align-self: center;
-    width: 30%;
-}
 .fooBar {
     margin: 1.5%;
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
+
 .fab {
-    margin:0 .5%;
-    
+    margin: 0 .5%;
+
 }
-h1.sLinks{
+
+h1.sLinks {
     margin-top: 2.5%;
-    color: rgb(255,255,244);
 }
-div.fooBar a {
-     margin: 2%;
-}
+
 .fab:hover {
     opacity: 0.5;
 }
+
 .fa-facebook-square {
     color: #3b5998;
-    
+
 }
+
 .fa-instagram {
     color: #3f729b;
 }
+
 .fa-youtube {
     color: red;
 }
+
 .fa-twitter {
     color: #1da1f2;
 }
