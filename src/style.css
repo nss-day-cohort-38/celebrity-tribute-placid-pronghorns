@@ -11,55 +11,211 @@
 /* NAVBAR */
 header {
     background-image: linear-gradient(to right,white , #334E58 );
-    display: flex;
 }
 nav {
     display: flex;
     width: 100%;
-    
+    flex-direction: row;
+}
+h1.title {
+    font-size: 75px;
+    margin-left: 10%;
+    color: rgb(255,255,244);
+    text-shadow: 1px 1px #334E58;
+    font-style: italic;
+    margin-top: 1.5%;
+    letter-spacing: 10px;
+    font-family: 'Fredoka One', cursive;
+ 
 }
 img.logo {
     width: 10%;
     height: auto;
     margin: 1%;
 }
-
-body{
-    /* display: flex; */
-    background-image: url("/src/img/mountains.jpeg");
-    
-}
-.pageName {
-    display: flex;
-    align-items: flex-end;
-}
-
 .navbar {
     display: flex;
     list-style-type: none;
-    margin: 10%;
+    align-self: flex-end;
     justify-content: flex-start;
+    margin-left: 10%;
     
 }
-
-.navbar li{
-    margin: 30%;
+.navbar li {
+    margin: 10%;
+    align-self: flex-end;
+    border: solid 1px rgb(255,255,244);
+    padding: 5%;
+    border-radius: 10%;
+    color: midnightblue;
+}
+.navbar li:hover {
+    border:solid 1px midnightblue;
+    background-color: #334E58;
+    color: white;
+    padding: 5.5%;
+    transition: 1s;
+}
+body{
+    background-image: url("/src/img/mountains.jpeg");
+    background-attachment: fixed;
+    
 }
 
 /* NEWS BLOCKS */
 
-.newsOne .newsTwo .newsThree .newsFour {
-    margin: 20%;
+h3 {
+    margin: 2%;
+}
+.newsBlockOne .newsBlockThree {
     display: flex;
-    flex-direction: row;
+    border: 1px solid black;
+    /* flex-direction: column; */
+    margin: 2%;
+    width: 100%;
+    height: 25%;
+    /* flex-wrap: wrap; */
 }
 
+.newsBlockOne {
+    padding: 2% 0 0 0;
+}
 
+.newsBlockTwo {
+    display: flex;
+    /* border: 1px solid black; */
+    /* flex-direction: column; */
+    margin: 2%;
+    width: 93%;
+    height: 25%;
+    /* flex-wrap: wrap; */
+}
 
+.newsOne {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
 
+.newsTwo {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
 
+.newsThree{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
 
+.newsFour{
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
 
+img.lsuHype {
+    width: 40%;
+    height: 200px;
+    margin: 2%;
+    border: 1px solid black
+}
+
+img.childhoodShow {
+    width: 40%;
+    height: 200px;
+    margin: 4%;
+    border: 1px solid black
+}
+
+img.iceCream {
+    width: 40%;
+    height: 200px;
+    margin: 4%;
+    border: 1px solid black
+}
+
+img.kittleCleats {
+    width: 40%;
+    height: 200px;
+    margin: 2%;
+    border: 1px solid black
+}
+
+/* NAVBAR */
+header {
+    background-image: linear-gradient(to right,white , #334E58 );
+}
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+h1.title {
+    font-size: 75px;
+    margin-left: 10%;
+    color: rgb(255,255,244);
+    text-shadow: 1px 1px #334E58;
+    font-style: italic;
+    margin-top: 1.5%;
+    letter-spacing: 10px;
+    font-family: 'Fredoka One', cursive;
+ 
+}
+img.logo {
+    width: 10%;
+    height: auto;
+    margin: 1%;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+    align-self: flex-end;
+    justify-content: flex-start;
+    margin-left: 10%;
+    
+}
+.navbar li {
+    margin: 10%;
+    align-self: flex-end;
+    border: solid 1px rgb(255,255,244);
+    padding: 5%;
+    border-radius: 10%;
+    color: midnightblue;
+}
+.navbar li:hover {
+    border:solid 1px midnightblue;
+    background-color: #334E58;
+    color: white;
+    padding: 5.5%;
+    transition: 1s;
+}
+body{
+    background-image: url("/src/img/mountains.jpeg");
+    background-attachment: fixed;
+    
+}
 
 
 
@@ -74,7 +230,41 @@ footer {
     background-image: linear-gradient(to right,white , #334E58 );
     align-items:center;
     flex-direction: column;
+    border: 1px dotted green;
 
+}
+div.mailList {
+    border:none;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    background-color: midnightblue;
+    padding: 1.5%;
+    box-shadow: 1px 3px grey;
+    /* border-radius: 5%; */
+}
+div.mailTitle {
+    margin:2% 2% 1% 2%;
+    color: rgb(255,255,244);
+}
+button.Email-btn {
+    padding: 1.5%;
+    margin: 2%;
+    border-radius: 5%;
+    transition: ease .3s;
+}
+button.Email-btn:hover {
+    margin:4%;
+    color:white;
+    background-color: midnightblue;
+    border:2px lightblue solid;
+    transition: ease .3s;
+
+}
+input.eEntry {
+    height: 50%;
+    align-self: center;
+    width: 30%;
 }
 .fooBar {
     margin: 1.5%;
@@ -89,6 +279,7 @@ footer {
 }
 h1.sLinks{
     margin-top: 2.5%;
+    color: rgb(255,255,244);
 }
 .fab:hover {
     opacity: 0.5;

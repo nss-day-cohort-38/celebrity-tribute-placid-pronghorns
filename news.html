@@ -12,9 +12,9 @@
 </head>
 <header>
     <nav>
-        <img src="src/img/logo.png" class="logo">
+        <img src="src/img/logo2.png" class="logo">
         <div class="pageName">
-            <h1 class="title">News</h1>
+            <h1 class="title">Home</h1>
         </div>
         <div class="navLinks">
             <ul class="navbar">
@@ -29,24 +29,40 @@
 </header>
 
 <body>
-    <div class="newsOne">
-            <img class="lsuHype" src="https://www.wafb.com/resizer/Ht1Jto5zDve8uGRVrBsnez11Wk8=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/SQBD7AWTJBDNTAIQOIHG4TZGAY.jpg">
-        <h3>Dwayne 'The Rock' Johnson narrates final LSU hype video ahead of National Championship</h3>
+    <div class="newsBlockOne">
+        <div class="newsOne">
+            <img class="lsuHype"
+                src="https://www.wafb.com/resizer/Ht1Jto5zDve8uGRVrBsnez11Wk8=/1200x600/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/SQBD7AWTJBDNTAIQOIHG4TZGAY.jpg">
+            <h3>Dwayne 'The Rock' Johnson narrates final LSU hype video ahead of National Championship</h3>
+        </div>
     </div>
-    <div class="newsTwo">
-        <h3>NBC developing 'Young Rock' based on the childhood of Dwayne 'The Rock' Johnson</h3>
-        <img class="childhoodShow" src="https://www.joblo.com/assets/images/joblo/news/2020/01/youngrock-two.jpg">
+    <div class="newsBlockTwo">
+        <div class="newsTwo">
+            <h3>NBC developing 'Young Rock' based on the childhood of Dwayne 'The Rock' Johnson</h3>
+            <img class="childhoodShow" src="https://www.joblo.com/assets/images/joblo/news/2020/01/youngrock-two.jpg">
+        </div>
+        <div class="newsThree">
+            <img class="iceCream"
+                src="https://s.abcnews.com/images/GMA/Dwanta-Claus-Salt-and-Straw-1_hpEmbed_1x1_992.jpg">
+            <h3>Dwayne Johnson teams up with Salt & Straw to launch a line of holiday ice cream flavors</h3>
+        </div>
     </div>
-    <div class="newsThree">
-        <img class="iceCream" src="https://s.abcnews.com/images/GMA/Dwanta-Claus-Salt-and-Straw-1_hpEmbed_1x1_992.jpg">
-        <h3>Dwayne Johnson teams up with Salt & Straw to launch a line of holiday ice cream flavors</h3>
+    <div class="newsBlockThree">
+        <div class="newsFour">
+            <h3>49ers TE George Kittle wears 'The Rock'-inspired cleats in playoffs versus Vikings</h3>
+            <img class="kittleCleats" src="https://pbs.twimg.com/media/EOCbu2LUcAANMwe?format=jpg&name=medium">
+        </div>
     </div>
-    <div class="newsFour">
-        <h3>49ers TE George Kittle wears 'The Rock'-inspired cleats in playoffs versus Vikings</h3>
-        <img class="kittleCleats" src="https://pbs.twimg.com/media/EOCbu2LUcAANMwe?format=jpg&name=medium">
     </div>
 </body>
 <footer>
+    <div class="mailTitle">
+        <h4>Wanna stay update to date on Everything that Rocks?</h4>
+    </div>
+    <div class="mailList">
+        <input type="text" class="eEntry" placeholder="Enter Your Email Here!">
+        <button type="button" class="Email-btn" onclick="return submitEmail();">Rock On!</button>
+    </div>
     <h1 class="sLinks"><em>Social Links</em></h1>
     <div class="fooBar">
         <!-- <img src="#" class="fB"> -->
@@ -59,6 +75,7 @@
         <i class="fab fa-twitter fa-3x"></i>
 
     </div>
+    <script src="/src/main.js"></script>
 </footer>
 
 </html>
