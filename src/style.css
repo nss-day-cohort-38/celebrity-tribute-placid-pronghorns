@@ -10,7 +10,8 @@
 
 /* NAVBAR */
 header {
-    background-image: linear-gradient(to right,white , #334E58 );
+    /* background-image: linear-gradient(to right,white , #334E58 ); */
+    background-color: #334E58;
 }
 nav {
     display: flex;
@@ -24,6 +25,9 @@ h1.title {
     font-size: 75px;
     margin-left: 10%;
     color: rgb(255,255,244);
+    /* background: url("/src/img/woods.jpeg");
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
     text-shadow: 1px 1px #334E58;
     font-style: italic;
     margin-top: 4%;
@@ -49,7 +53,7 @@ img.logo {
 .navbar li {
     align-self: flex-end;
     border: solid 1px rgb(255,255,244);
-    padding: 1%;
+    padding: 3%;
     border-radius: 10%;
     color: midnightblue;
     transition: 1s;
@@ -59,9 +63,8 @@ img.logo {
     border:solid 1px lightblue;
     background-color: #334E58;
     color: white;
-    padding: 1.5%;
+    padding: 3.5%;
     transition: 1s;
-    font-size:15px;
 }
 a:link {
     color: white;
@@ -69,7 +72,6 @@ a:link {
 body{
     background-image: url("/src/img/mountains.jpeg");
     background-attachment: fixed;
-    
 }
 /* ABOUT BODY */
 
@@ -224,7 +226,7 @@ div.panelA ul {
     margin-bottom: 5%;
 }
 ul.listCollab li {
-    font-size: 17px;
+    font-size: 13px;
     letter-spacing: 3px;
 
 }
