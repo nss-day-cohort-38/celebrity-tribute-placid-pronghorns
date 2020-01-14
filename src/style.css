@@ -25,7 +25,8 @@ h1.title {
 }
 img.logo {
     width: 10%;
-    height: auto;
+    /* height: auto; */
+    max-height: 150px;
     margin: 1%;
 }
 .navbar {
