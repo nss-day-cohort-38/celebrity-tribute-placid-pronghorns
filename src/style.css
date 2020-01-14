@@ -15,6 +15,9 @@ nav {
     display: flex;
     width: 100%;
     flex-direction: row;
+    resize: both;
+    overflow: auto;
+    /* border: 1px dotted red; */
 }
 h1.title {
     font-size: 75px;
@@ -22,7 +25,7 @@ h1.title {
     color: rgb(255,255,244);
     text-shadow: 1px 1px #334E58;
     font-style: italic;
-    margin-top: 1.5%;
+    margin-top: 4%;
     letter-spacing: 10px;
     font-family: 'Fredoka One', cursive;
  
@@ -35,27 +38,36 @@ img.logo {
 .navbar {
     display: flex;
     list-style-type: none;
-    align-self: flex-end;
-    justify-content: flex-start;
+    /* border: 1px dotted green; */
     margin-left: 10%;
-    /* width: auto; */
+    width:  50%;
+    justify-content: space-evenly;
+
     
 }
 .navbar li {
-    margin: 10%;
     align-self: flex-end;
     border: solid 1px rgb(255,255,244);
-    padding: 5%;
+    padding: 1%;
     border-radius: 10%;
     color: midnightblue;
+    transition: 1s;
+    margin-bottom: 2%;
 }
+
 .navbar li:hover {
-    border:solid 1px midnightblue;
+    border:solid 1px lightblue;
     background-color: #334E58;
     color: white;
-    padding: 5.5%;
+    padding: 1.5%;
     transition: 1s;
+    font-size:15px;
 }
+
+a:link {
+    color: white;
+}
+
 body{
     background-image: url("/src/img/mountains.jpeg");
     background-attachment: fixed;
@@ -79,7 +91,7 @@ h3 {
     display: flex;
     border: 1px solid black;
     /* flex-direction: column; */
-    margin: auto;
+    margin: 2%;
     width: 100%;
     height: 25%;
     /* flex-wrap: wrap; */
@@ -105,7 +117,7 @@ ul {
     display: flex;
     /* border: 1px solid black; */
     /* flex-direction: column; */
-    margin: auto;
+    margin: 0 0 0 2%;
     width: 93%;
     height: 25%;
     /* flex-wrap: wrap; */
@@ -200,7 +212,8 @@ footer {
     background-image: linear-gradient(to right,white , #334E58 );
     align-items:center;
     flex-direction: column;
-    border: 1px dotted green;
+    /* border: 1px dotted green; */
+
 }
 div.mailList {
     border:none;
@@ -228,6 +241,7 @@ button.Email-btn:hover {
     background-color: midnightblue;
     border:2px lightblue solid;
     transition: ease .3s;
+
 }
 input.eEntry {
     height: 50%;
@@ -239,19 +253,25 @@ input.eEntry {
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 .fab {
     margin:0 .5%;
+    
 }
 h1.sLinks{
     margin-top: 2.5%;
     color: rgb(255,255,244);
+}
+div.fooBar a {
+     margin: 2%;
 }
 .fab:hover {
     opacity: 0.5;
 }
 .fa-facebook-square {
     color: #3b5998;
+    
 }
 .fa-instagram {
     color: #3f729b;
