@@ -7,7 +7,6 @@
     font-family: 'Alata', sans-serif;
     /* color: white; */
 }
-
 /* NAVBAR */
 header {
     background-image: linear-gradient(to right,white , #334E58 );
@@ -39,6 +38,7 @@ img.logo {
     align-self: flex-end;
     justify-content: flex-start;
     margin-left: 10%;
+    width: auto;
     
 }
 .navbar li {
@@ -163,67 +163,6 @@ img.kittleCleats {
     border: 1px solid black
 }
 
-/* NAVBAR */
-header {
-    background-image: linear-gradient(to right,white , #334E58 );
-}
-nav {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-}
-h1.title {
-    font-size: 75px;
-    margin-left: 10%;
-    color: rgb(255,255,244);
-    text-shadow: 1px 1px #334E58;
-    font-style: italic;
-    margin-top: 1.5%;
-    letter-spacing: 10px;
-    font-family: 'Fredoka One', cursive;
- 
-}
-img.logo {
-    width: 10%;
-    height: auto;
-    margin: 1%;
-}
-.navbar {
-    display: flex;
-    list-style-type: none;
-    align-self: flex-end;
-    justify-content: flex-start;
-    margin-left: 10%;
-    
-}
-.navbar li {
-    margin: 10%;
-    align-self: flex-end;
-    border: solid 1px rgb(255,255,244);
-    padding: 5%;
-    border-radius: 10%;
-    color: midnightblue;
-}
-.navbar li:hover {
-    border:solid 1px midnightblue;
-    background-color: #334E58;
-    color: white;
-    padding: 5.5%;
-    transition: 1s;
-}
-body{
-    background-image: url("/src/img/mountains.jpeg");
-    background-attachment: fixed;
-    
-}
-
-
-
-
-
-
-
-
 /* FOOTER  */
 footer {
     display: flex;
@@ -231,7 +170,6 @@ footer {
     align-items:center;
     flex-direction: column;
     border: 1px dotted green;
-
 }
 div.mailList {
     border:none;
@@ -259,7 +197,6 @@ button.Email-btn:hover {
     background-color: midnightblue;
     border:2px lightblue solid;
     transition: ease .3s;
-
 }
 input.eEntry {
     height: 50%;
@@ -271,11 +208,9 @@ input.eEntry {
     width: 100%;
     display: flex;
     justify-content: center;
-    
 }
 .fab {
     margin:0 .5%;
-    
 }
 h1.sLinks{
     margin-top: 2.5%;
@@ -286,7 +221,6 @@ h1.sLinks{
 }
 .fa-facebook-square {
     color: #3b5998;
-    
 }
 .fa-instagram {
     color: #3f729b;
