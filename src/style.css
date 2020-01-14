@@ -20,8 +20,9 @@ nav {
 h1.title {
     font-size: 75px;
     margin-left: 10%;
-    color: white;
+    color: rgb(255,255,244);
     text-shadow: 1px 1px #334E58;
+    font-style: italic;
  
 }
 img.logo {
@@ -40,7 +41,7 @@ img.logo {
 .navbar li {
     margin: 10%;
     align-self: flex-end;
-    border: solid 1px white;
+    border: solid 1px rgb(255,255,244);
     padding: 5%;
     border-radius: 10%;
     color: midnightblue;
@@ -59,6 +60,7 @@ body{
 }
 /* ABOUT BODY */
 
+/* HEADSHOT */
 div.headShot {
     display: flex;
     align-items: center;
@@ -68,11 +70,149 @@ img.hShotOne {
     width: 30%;
     margin:5%;
     border-radius: 5%;
+    margin-bottom: 0%;
+
+}
+h2.dName {
+    color: white;
+    text-shadow: 1px 1px midnightblue;
+}
+/* INSPIRATIONAL QOUTE */
+div.qouteCon {
+    display: flex;
+    /* border: 1px dotted red; */
+    justify-content: center;
+}
+div.qoute-box {
+    display: flex;
+    /* border: 1px dotted green; */
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    background-color: midnightblue;
+    color: white;
+    padding:0 5% 5% 5%;
+    margin: 5%;
+    border-radius: 5%;
+}
+div.qoute-box p {
+    font-size: 30px;
+    
+}
+div.qoute-box p::first-letter {
+    font-size: 100px;
+    color: red;
+    
+}
+div.qoute-box h3 {
+    align-self: center;
+    font-style: italic;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-top: 10%;
+}
+/* ALIASES */
+
+div.aliases {
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    margin-top: 5%;
+}
+div.aPanel1{
+    border:solid 1px black;
+    border-radius: 5%;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255,255,244);
+
+}
+div.aPanel1 h4 {
+    align-self: center;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 1px midnightblue;
+    color: rgb(255,255,244);
+}
+ul.aList {
+    list-style-image: url("/src/img/LOCROC.png");
+    margin-left: 8%;
+}
+ul.aList li {
+    margin: 5%;
+    font-size: 20px;
+}
+div.panelGif{
+    /* border:dotted 1px red; */
+    width: 30%;
+    margin-right: 5%;
+}
+img.brows {
+    width: 100%;
+    border-radius: 5%;
+    /* border: 4px dotted gold; */
 }
 
+/* KNOWN_COLLABS */
+/* div.collabBody {
+    border:1px dotted red;
+} */
+div.collabs{
+    margin:5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom, rgb(255,255,244), rgba(0,0,0, 0.4));
+    border-radius: 7%;
+}
+div.panelA {
+    border:1px solid black;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgb(255,255,244);
+    background-color: rgba(169,169,169, 0.8);
+    transition: ease .3s;
+}
+div.panelA:hover {
+    width: 28%;
+    border-radius: 5%;
+    transition: ease .3s;
+    background-color: rgba(123,123,123, 0.8);
+}
 
+div.panelA img {
+    width: 50%;
+    height: auto;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+div.panelA h4 {
+    align-self: center;
+    text-shadow: 1px 1px rgba(0,0,0, 0.8);
+}
+div.panelA h5 {
+    align-self: center;
+    text-shadow: 1px 1px rgba(0,0,0, 0.8);
+}
+div.panelA ul {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+ul.listCollab li {
+    font-size: 13px;
+    letter-spacing: 3px;
 
-
+}
 
 
 
