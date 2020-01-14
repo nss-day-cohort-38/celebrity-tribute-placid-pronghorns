@@ -9,7 +9,8 @@
 }
 /* NAVBAR */
 header {
-    background-image: linear-gradient(to right,white , #334E58 );
+    /* background-image: linear-gradient(to right,white , #334E58 ); */
+    background-color: #334E58;
 }
 nav {
     display: flex;
