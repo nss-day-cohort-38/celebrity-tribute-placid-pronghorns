@@ -56,6 +56,9 @@ img.logo {
     padding: 5.5%;
     transition: 1s;
 }
+a:link {
+    color: white;
+}
 body{
     background-image: url("/src/img/mountains.jpeg");
     background-attachment: fixed;
@@ -226,7 +229,7 @@ footer {
     background-image: linear-gradient(to right,white , #334E58 );
     align-items:center;
     flex-direction: column;
-    border: 1px dotted green;
+    /* border: 1px dotted green; */
 
 }
 div.mailList {
