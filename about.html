@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="src/style.css">
-    <script src="https://kit.fontawesome.com/48876406bf.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-    <title>About Dwayne The Rock</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./src/style.css">
+        <script src="https://kit.fontawesome.com/48876406bf.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+        <title>Dwayne The Rock</title>
+    </head>
     <header>
         <nav>
-            <img src="src/img/logo.png" class="logo">
-            <div class="pageName">
-                <h1 class="title">Home</h1>
-            </div>
-            <div class="navLinks">
-                <ul class="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="career.html">Career</a></li>
-                    <li><a href="news.html">News</a></li>
-                </ul>
-            </div>
+            <img src="src/img/logo2.png" class="logo">
+            <h1 class="title">About</h1>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
         </nav>
     </header>
 
+<body>  
+    <!-- Top container containing photo and birth/death info -->
     <div class="top-container">
+        <figure>
+            <img src="src/img/dwayne-johnson-about.jpg" alt="" class="about-img-dwayne">
+            <figcaption>Born May 2, 1972 - Present</figcaption>
+        </figure>
+
         <div class="name-in-top-container">
             <h1>Dwayne Douglas Johnson</h1>
+            <h3>Origin: Hayward, California, U.S.</h3>
+            <h3 id="move-text-closer">Places Lived:</h3>
+            <ul>
+                <li>Bethlehem, Pennsylvania</li>
+                <li>Miami, Florida</li>
+                <li>Hawaii</li>
+            </ul>
         </div>
+    </div>
 
-        <img src="src/img/dwayne-johnson-about.jpg" alt="" class="about-img-dwayne move-left">
-        <h3 class="move-left">Born May 2, 1972 - Present</h3>  
+
+    <!-- Middle container containing spouse info -->
+    <div class="middle-container">
+        <div class="spouse-container">
+            <div class="spouse-name">
+                <h1>Spouse</h1>
+                <h3>Lauren Hashian</h3>
+                <h4>Married from August 18, 2019 - present</h4>
+            </div>
+            <img src="src/img/Lauren-Hashian.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!-- Bottom container containing direct family and info -->
+    <div class="bottom-container">
+        <div class="family-container">
+            <div class="panel1">
+                <h3>Rocky Johnson</h3>
+                <ul>
+                    <li>Father</li>
+                    <li>Born: August 24, 1944</li>
+                </ul>
+                <img src="src/img/Rocky-Johnson.jpg" alt="" class="small-img">
+            </div>
+            <div class="panel1">
+                <h3>Feagaimaleata Maivia</h3>
+                <ul>
+                    <li>Mother</li>
+                    <li>Born: October 25, 1948</li>
+                </ul>
+                <img src="src/img/ata-johnson.jpeg" alt="" class="small-img">
+            </div>
+            <div class="panel1">
+                <h3>Simone Johnson</h3>
+                <ul>
+                    <li>Daughter</li>
+                    <li>Born: August 14, 2001</li>
+                </ul>
+                <img src="src/img/simone-johnson.jpeg" alt="" class="small-img">
+            </div>
+            <div class="panel1">
+                <h3>Jasmine Johnson</h3>
+                <ul>
+                    <li>Daughter</li>
+                    <li>Born: December 16, 2015</li>
+                </ul>
+                <img src="src/img/jasmine-johnson.jpeg" alt="" class="small-img">
+            </div>
+            <div class="panel1">
+                <h3>Tiana Johnson</h3>
+                <ul>
+                    <li>Daughter</li>
+                    <li>Born: AApril 17, 2018</li>
+                </ul>
+                <img src="src/img/tiana-johnson.jpeg" alt="" class="small-img">
+            </div>
+        </div>
     </div>
 
     <footer>
@@ -46,4 +114,5 @@
         </div>
     </footer>
 </body>
+
 </html>
