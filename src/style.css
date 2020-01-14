@@ -168,11 +168,6 @@ ul {
     background-color: rgba(143, 143, 143, 0.8);
 }
 
-.detailsOne .detailsTwo .detailsThree .detailsFour {
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-
 .detailsFour {
     display: flex;
     flex-direction: column;
