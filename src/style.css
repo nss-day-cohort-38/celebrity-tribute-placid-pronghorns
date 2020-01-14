@@ -10,65 +10,63 @@
 
 /* NAVBAR */
 header {
-    /* background-image: linear-gradient(to right,white , #334E58 ); */
-    background-color: #334E58;
+    background: #334E58;
 }
+
 nav {
     display: flex;
     width: 100%;
     flex-direction: row;
-    resize: both;
-    overflow: auto;
-    /* border: 1px dotted red; */
 }
+
 h1.title {
     font-size: 75px;
     margin-left: 10%;
     color: rgb(255,255,244);
-    /* background: url("/src/img/woods.jpeg");
-    -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
     text-shadow: 1px 1px #334E58;
     font-style: italic;
     margin-top: 4%;
     letter-spacing: 10px;
     font-family: 'Fredoka One', cursive;
- 
 }
+
 img.logo {
     width: 10%;
-    height: auto;
+    /* height: auto; */
+    max-height: 150px;
     margin: 1%;
 }
+
 .navbar {
     display: flex;
     list-style-type: none;
-    /* border: 1px dotted green; */
-    margin-left: 10%;
-    width:  50%;
-    justify-content: space-evenly;
-
-    
+    align-self: flex-end;
+    justify-content: flex-start;
+    margin-left: 20%;
 }
+
 .navbar li {
+    margin: 10%;
     align-self: flex-end;
     border: solid 1px rgb(255,255,244);
-    padding: 3%;
+    padding: 5%;
     border-radius: 10%;
     color: midnightblue;
     transition: 1s;
-    margin-bottom: 2%;
 }
+
 .navbar li:hover {
     border:solid 1px lightblue;
-    background-color: #334E58;
+    background-color: midnightblue;
     color: white;
-    padding: 3.5%;
+    padding: 5.5%;
     transition: 1s;
 }
-a:link {
+
+a {
     color: white;
 }
+
 body{
     background-image: url("/src/img/mountains.jpeg");
     background-attachment: fixed;
