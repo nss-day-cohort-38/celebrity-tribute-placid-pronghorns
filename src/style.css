@@ -126,6 +126,9 @@ h1.sLinks{
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 3.5%;
 }
 
 .name-in-top-container {
@@ -151,6 +154,9 @@ figure {
     width: 100%;
     display: flex;
     justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
 }
 
 .spouse-container {
@@ -175,6 +181,7 @@ figure {
 
 .bottom-container {
     width: 100%;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .family-container {
@@ -193,7 +200,16 @@ figure {
     margin: 5%;
     color: white;
     background: rgba(143, 143, 143, 0.5);
+    transition: ease 0.3s;
 }
+
+.panel1:hover {
+    padding: 0.5%;
+    transition: ease 0.3s;
+    background: rgba(143, 143, 143, 5);
+}
+
+
 
 .small-img {
     width: 70%;
