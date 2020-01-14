@@ -16,6 +16,9 @@ nav {
     display: flex;
     width: 100%;
     flex-direction: row;
+    resize: both;
+    overflow: auto;
+    /* border: 1px dotted red; */
 }
 h1.title {
     font-size: 75px;
@@ -23,7 +26,7 @@ h1.title {
     color: rgb(255,255,244);
     text-shadow: 1px 1px #334E58;
     font-style: italic;
-    margin-top: 1.5%;
+    margin-top: 4%;
     letter-spacing: 10px;
     font-family: 'Fredoka One', cursive;
  
@@ -36,25 +39,29 @@ img.logo {
 .navbar {
     display: flex;
     list-style-type: none;
-    align-self: flex-end;
-    justify-content: flex-start;
+    /* border: 1px dotted green; */
     margin-left: 10%;
+    width:  50%;
+    justify-content: space-evenly;
+
     
 }
 .navbar li {
-    margin: 10%;
     align-self: flex-end;
     border: solid 1px rgb(255,255,244);
-    padding: 5%;
+    padding: 1%;
     border-radius: 10%;
     color: midnightblue;
+    transition: 1s;
+    margin-bottom: 2%;
 }
 .navbar li:hover {
-    border:solid 1px midnightblue;
+    border:solid 1px lightblue;
     background-color: #334E58;
     color: white;
-    padding: 5.5%;
+    padding: 1.5%;
     transition: 1s;
+    font-size:15px;
 }
 a:link {
     color: white;
@@ -135,6 +142,7 @@ div.aPanel1{
     flex-direction: column;
     background-color: rgba(0,0,0, 0.4);
     color: rgb(255,255,244);
+    
 
 }
 div.aPanel1 h4 {
@@ -175,6 +183,7 @@ div.collabs{
     justify-content: space-evenly;
     background-image: linear-gradient(to bottom, rgb(255,255,244), rgba(0,0,0, 0.4));
     border-radius: 7%;
+    backdrop-filter: blur(2px);
 }
 div.panelA {
     border:1px solid black;
@@ -215,7 +224,7 @@ div.panelA ul {
     margin-bottom: 5%;
 }
 ul.listCollab li {
-    font-size: 13px;
+    font-size: 17px;
     letter-spacing: 3px;
 
 }
@@ -279,6 +288,9 @@ input.eEntry {
 h1.sLinks{
     margin-top: 2.5%;
     color: rgb(255,255,244);
+}
+div.fooBar a {
+     margin: 2%;
 }
 .fab:hover {
     opacity: 0.5;
