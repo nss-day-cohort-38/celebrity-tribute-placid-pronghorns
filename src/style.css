@@ -10,8 +10,9 @@
 
 /* NAVBAR */
 header {
-    background-image: linear-gradient(to bottom, rgb(51,78,88), rgba(51,78,88, 0.2));
-    /* position: sticky; */
+    /* background-image: linear-gradient(to bottom, rgb(51,78,88), rgba(51,78,88, 0.2)); */
+    background-color: rgb(51,78,88);
+
 }
 
 nav {
