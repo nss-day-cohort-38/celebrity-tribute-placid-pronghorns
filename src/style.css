@@ -53,13 +53,18 @@ img.logo {
     transition: 1s;
 }
 
+body {
+    background-image: url("/src/img/mountains.jpeg");
+    background-attachment: fixed;
+}
+
 /* Career Page */
 div.football {
     display: flex;
     flex-direction: row;
     padding: 20px;
     width: auto;
-    border: 5px solid black;
+    border: 2.5px solid black;
     margin: 20px;
     background-color: rgba(143, 143, 143, 0.8);
     border-radius: 25px;
@@ -86,7 +91,7 @@ div.wrestling {
     flex-direction: row;
     padding: 20px;
     width: auto;
-    border: 5px solid black;
+    border: 2.5px solid black;
     margin: 20px;
     flex-direction: row-reverse;
     background-color: rgba(143, 143, 143, 0.8);
@@ -113,7 +118,7 @@ div.awards {
     flex-direction: row;
     padding: 20px;
     width: auto;
-    border: 5px solid black;
+    border: 2.5px solid black;
     margin: 20px;
     background-color: rgba(143, 143, 143, 0.8);
     border-radius: 25px;
@@ -124,7 +129,7 @@ div.acting {
     flex-direction: row;
     padding: 20px;
     width: auto;
-    border: 5px solid black;
+    border: 2.5px solid black;
     margin: 20px;
     background-color: rgba(143, 143, 143, 0.8);
     border-radius: 25px;
@@ -151,7 +156,7 @@ div.author {
     flex-direction: row;
     padding: 20px;
     width: auto;
-    border: 5px solid black;
+    border: 2.5px solid black;
     margin: 20px;
     background-color: rgba(143, 143, 143, 0.8);
     border-radius: 25px;
