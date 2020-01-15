@@ -1,18 +1,13 @@
-
-/* 415D43   A8B7AB  334E58  rgba(211, 84, 0, 0.5) */
-
 *{
     margin: 0;
     padding: 0;
     font-family: 'Alata', sans-serif;
     /* color: white; */
 }
-
 /* NAVBAR */
 header {
-    /* background-image: linear-gradient(to bottom, rgb(51,78,88), rgba(51,78,88, 0.2)); */
-    background-color: rgb(51,78,88);
-
+    /* background-image: linear-gradient(to right,white , #334E58 ); */
+    background-color: #334E58;
 }
 
 nav {
@@ -38,31 +33,37 @@ img.logo {
     max-height: 150px;
     margin: 1%;
 }
-
 .navbar {
     display: flex;
     list-style-type: none;
-    align-self: flex-end;
-    justify-content: flex-start;
-    margin-left: 20%;
-}
+    /* border: 1px dotted green; */
+    margin-left: 10%;
+    width:  50%;
+    justify-content: space-evenly;
 
+    
+}
 .navbar li {
-    margin: 10%;
     align-self: flex-end;
     border: solid 1px rgb(255,255,244);
-    padding: 5%;
+    padding: 1%;
     border-radius: 10%;
     color: midnightblue;
     transition: 1s;
+    margin-bottom: 2%;
 }
 
 .navbar li:hover {
     border:solid 1px lightblue;
-    background-color: midnightblue;
+    background-color: #334E58;
     color: white;
-    padding: 5.5%;
+    padding: 1.5%;
     transition: 1s;
+    font-size:15px;
+}
+
+a:link {
+    color: white;
 }
 
 a {
@@ -80,6 +81,20 @@ div.headShot {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+}
+
+/* NEWS BLOCKS */
+
+h3.headline {
+    margin: 5%;
+}
+
+.newsWholeBody {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
 }
 img.hShotOne {
     width: 30%;
@@ -117,7 +132,31 @@ div.qoute-box p {
 div.qoute-box p::first-letter {
     font-size: 100px;
     color: red;
+}
+.newsBlockOne .newsBlockThree {
+    display: flex;
+    border: 1px solid black;
+    /* flex-direction: column; */
+    margin: 2%;
+    width: 100%;
+    height: 25%;
+    /* flex-wrap: wrap; */
+}
+
+.newsBlockThree {
+    display: flex;
+    flex-direction: row;
     
+}
+
+ul.detailsList {
+    list-style-type: none;
+    margin: 5%;
+}
+
+.newsBlockOne {
+    /* padding: 2%; */
+    margin: auto;
 }
 div.qoute-box h3 {
     align-self: center;
@@ -228,11 +267,94 @@ div.panelA ul {
 ul.listCollab li {
     font-size: 13px;
     letter-spacing: 3px;
-
+}
+.newsBlockTwo {
+    display: flex;
+    /* border: 1px solid black; */
+    /* flex-direction: column; */
+    margin: 0 0 0 2%;
+    width: 93%;
+    height: 25%;
+    /* flex-wrap: wrap; */
 }
 
+.newsOne {
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 95%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
 
+.newsTwo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
 
+.newsThree{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
+
+.newsFour{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 95%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 1%;
+    background-color: rgba(143, 143, 143, 0.8);
+}
+
+.detailsFour {
+    display: flex;
+    flex-direction: column;
+}
+
+img.lsuHype {
+    width: 40%;
+    height: 200px;
+    margin: 2%;
+    border: 1px solid black
+}
+
+img.childhoodShow {
+    width: 40%;
+    height: 200px;
+    margin: 4%;
+    border: 1px solid black
+}
+
+img.iceCream {
+    width: 40%;
+    height: 200px;
+    margin: 4%;
+    border: 1px solid black
+}
+
+img.kittleCleats {
+    width: 40%;
+    height: 200px;
+    margin: 2%;
+    border: 1px solid black
+}
 
 /* FOOTER  */
 footer {
@@ -243,6 +365,36 @@ footer {
     /* border: 1px dotted green; */
 
 }
+div.mailList {
+    border:none;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    background-color: midnightblue;
+    padding: 1.5%;
+    box-shadow: 1px 3px grey;
+    /* border-radius: 5%; */
+}
+div.mailTitle {
+    margin:2% 2% 1% 2%;
+    color: rgb(255,255,244);
+}
+button.Email-btn {
+    padding: 1.5%;
+    margin: 2%;
+    border-radius: 5%;
+    transition: ease .3s;
+}
+button.Email-btn:hover {
+    margin:4%;
+    color:white;
+    background-color: midnightblue;
+    border:2px lightblue solid;
+    transition: ease .3s;
+
+}
+
+
 div.mailList {
     border:none;
     width: 35%;
@@ -309,4 +461,105 @@ div.fooBar a {
 }
 .fa-twitter {
     color: #1da1f2;
+}
+
+
+/* About Page CSS */
+.about-img-dwayne {
+    width: 75%; 
+    margin: 5% 0 0 0;
+    border-radius: 5%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 3.5%;
+}
+
+.name-in-top-container {
+    line-height: 50px;
+}
+
+.name-in-top-container ul li {
+    list-style-type: none;
+    padding-left: 5%;
+    line-height: 25px;
+}
+
+#move-text-closer {
+    line-height: 20px;
+}
+
+figure {
+    height: 75%;
+}
+
+.middle-container {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.spouse-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(143, 143, 143, 0.5);
+    border: 1px solid black;
+}
+
+.spouse-container img {
+    width: 50%;
+    padding: 5%;
+}
+
+.spouse-name {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.bottom-container {
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.family-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.panel1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin: 5%;
+    color: white;
+    background: rgba(143, 143, 143, 0.5);
+    transition: ease 0.3s;
+    border-radius: 2%;
+}
+
+.panel1:hover {
+    padding: 0.5%;
+    transition: ease 0.3s;
+    background: rgba(143, 143, 143, 5);
+}
+
+.small-img {
+    width: 70%;
+    padding: 5%;
 }
